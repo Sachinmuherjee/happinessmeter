@@ -8,9 +8,9 @@ const App=props => {
   const [expstate, expsetstate] = useState({
     exp:' How was your experience?'
   });
-  // expsetstate({
-  //     exp:'You are right?'
-  //   });
+     expsetstate({
+              exp:'You are right?'
+      });
     return (
     <div className="container">
     <div className="row mt-5">
